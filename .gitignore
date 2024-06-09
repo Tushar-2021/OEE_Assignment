@@ -1,0 +1,59 @@
+
+### `.gitignore`
+
+```gitignore
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+*.sqlite3
+
+# Environments
+venv/
+.env
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+media/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+*.bak
+desktop.ini
+
+# Miscellaneous
+*.log
+*.pot
+*.mo
+*.orig
+*.py[cod]
+*.so
+*.tar.gz
+*.tgz
+*.egg-info/
+*.egg
+dist/
+build/
+*.wheel
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.tox/
